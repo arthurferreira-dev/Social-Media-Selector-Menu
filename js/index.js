@@ -5,11 +5,11 @@ var clicks = false;
 
 function MenuAction() {
     if (!clicks) {
-        icon.className = 'fa-solid fa-angle-down'
+        icon.className = 'fa-solid fa-angle-up'
         divList.style.display = 'block'
         clicks = true
     } else {
-        icon.className = 'fa-solid fa-angle-up'
+        icon.className = 'fa-solid fa-angle-down'
         divList.style.display = 'none'
         clicks = false
     }
