@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c9c9c9;
+    overflow: hidden;
+}
+
+main {
+    text-align: center;
+}
+
+.menu > * {
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    width: 380px;
+    padding: 8px;
+    border-radius: 6.7px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.menuhidden {
+    visibility: hidden;
+}
+
+p#pad {
+    padding-left: 10px;
+}
+
+div#lista {
+    transition-duration: .37s;
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 6.7px;
+}
+
+ul > * {
+    display: flex;
+    transition-duration: .40s;
+    width: 350px;
+    margin: 6px;
+    border-radius: 6.7px;
+    padding: 2px;
+}
+
+ul > *:hover {
+    background-color: #cfcfcf;
+    padding-left: 12px;
+}
+
+.list-medias {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    margin-top: 12px;
+    background-color: #ffffff;
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.facebook, .linkedin {
+    color: #3961e4;
+}
+
+.github, .threads {
+    color: #001;
+}
+
+.twitch {
+    color: #6441a5;
+}
+
+.xbox {
+    color: #0e7a0d;
+}
+
+.spotify {
+    color: #1ED760;
+}
+
+.facebook, .linkedin, .github, .twitch, .xbox, .spotify, .threads {
+    padding-right: 10px;
+    padding-left: 10px;
+}
