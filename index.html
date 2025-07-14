@@ -9,20 +9,21 @@
 </head>
 <body>
     <main>
-        <div class="menu">
-            <p id="pad">Rede Social</p> <i class="fa-solid fa-angle-up"></i> <!--fa-solid fa-angle-down-->
+        <div class="menu" onclick="MenuAction()">
+            <p id="pad">Rede Social</p> <i class="fa-solid fa-angle-up" id="angle"></i> <!--fa-solid fa-angle-down-->
         </div>
         <div id="lista">
             <ul class="list-medias">
-                <li><span class="facebook"><i class="fa-brands fa-facebook"></i></span> Facebook</li>
-                <li><span class="linkedin"><i class="fa-brands fa-linkedin"></i></span> Linkedin</li>
-                <li><span class="github"><i class="fa-brands fa-github"></i></span> Github</li>
-                <li><span class="twitch"><i class="fa-brands fa-twitch"></i></span> Twitch</li>
-                <li><span class="threads"><i class="fa-brands fa-threads"></i></span> Threads</li>
-                <li><span class="xbox"><i class="fa-brands fa-xbox"></i></span> Xbox</li>
-                <li><span class="spotify"><i class="fa-brands fa-spotify"></i></span> Spotify</li>
+                <li onclick="Facebook()"><span class="facebook"><i class="fa-brands fa-facebook"></i></span> Facebook</li>
+                <li onclick="Linkedin()"><span class="linkedin"><i class="fa-brands fa-linkedin"></i></span> Linkedin</li>
+                <li onclick="Github()"><span class="github"><i class="fa-brands fa-github"></i></span> Github</li>
+                <li onclick="Twitch()"><span class="twitch"><i class="fa-brands fa-twitch"></i></span> Twitch</li>
+                <li onclick="Threads()"><span class="threads"><i class="fa-brands fa-threads"></i></span> Threads</li>
+                <li onclick="Xbox()"><span class="xbox"><i class="fa-brands fa-xbox"></i></span> Xbox</li>
+                <li onclick="Spotify()"><span class="spotify"><i class="fa-brands fa-spotify"></i></span> Spotify</li>
             </ul>
         </div>
     </main>
 </body>
+<script src="js/index.js"></script>
 </html>
