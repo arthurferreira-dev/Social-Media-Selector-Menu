@@ -51,7 +51,7 @@ p#pad {
 
 div#lista, div#history {
     transition-duration: .37s;
-    display: block;
+    display: none;
 }
 
 ul {
